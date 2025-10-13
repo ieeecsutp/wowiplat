@@ -7,6 +7,7 @@ module.exports = {
   plugins: [
     '@snowpack/plugin-react-refresh',
     '@snowpack/plugin-dotenv',
+    '@snowpack/plugin-postcss',
   ],
   routes: [
     { match: 'routes', src: '.*', dest: '/index.html' },

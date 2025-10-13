@@ -3,11 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Bienvenido a Wowiplat</h1>
-      </header>
-    </div>
+    <h1 className='bg-blue-300'>Bienvenido a Wowiplat</h1>
   );
 }
 
